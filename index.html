@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SHOOT & BLOOD</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <!--[if lt IE 9]><script type="text/javascript" src="js/excanvas.js"></script><![endif]-->
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="css/style.css" />
+
+    </head>
+    <body>
+
+        <section>
+            <div id="psgame">
+                <img src="img/bggame.png"/>
+                <label >Pseudo :</label>
+                <input name="pseudo" id="pseudo" />
+                <input type="button" value="PLAY" onclick="startGame();" id="lancer" />
+                <input type="button" value="SCORE" onclick="" id="score" />
+            </div>
+            <canvas id="c" width="800" height="600" >
+                <a href="#" class="classname" onclick="sound">JOUER</a>
+                <a href="#" class="classname" onclick="sound">SCORE</a>
+            </canvas>
+            <ul id="gameInfo"></ul>
+            <div class="clearfix"></div>
+            <table id="scoreInfo">
+                <thead>
+                    <tr>
+                        <th>Nom du joueur</th>
+                        <th>Score</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr id="score1">
+                    </tr>
+                    <tr id="score2">
+                    </tr>
+                    <tr id="score3">
+                    </tr>
+                    <tr id="score4">
+                    </tr>
+                    <tr id="score5">
+                    </tr>
+                </tbody>
+            </table>	
+        </section>
+        <script type="text/Javascript" src="js/buzz.js"></script>
+        <script type="text/Javascript" src="js/IIG.min.js"></script>
+        <script type="text/Javascript" src="js/LifeBar.js"></script>
+        <script type="text/Javascript" src="js/Keyboard.js"></script>
+        <script type="text/Javascript" src="js/Perso.js"></script>
+        <script type="text/Javascript" src="js/Projectile.js"></script>
+        <script type="text/Javascript" src="js/ProjectileBoss.js"></script>
+        <script type="text/Javascript" src="js/Enemy.js"></script>
+        <script type="text/Javascript" src="js/collide.js"></script>
+        <script type="text/Javascript" src="js/sound.js"></script>
+        <script type="text/Javascript" src="js/ScoreBar.js"></script>
+        <script type="text/Javascript" src="js/Map.js"></script>
+        <script type="text/Javascript" src="js/game.js"></script>
+        <script type="text/Javascript" src="js/infoScore.js"></script>
+
+    </body>
+</html>
